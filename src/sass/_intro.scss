@@ -1,0 +1,63 @@
+.intro {
+	&-section {
+		padding: 96px 0 45px 60px;
+		display: flex;
+	}
+	&-title {
+		font-size: 3rem;
+		line-height: 3.5rem;
+		color: $dark;
+		margin-bottom: 47px;
+	}
+	&-subtitle {
+		font-size: 1rem;
+		line-height: 1.5rem;
+		color: $dark;
+		margin-bottom: 35px;
+	}
+}
+.learn-more {
+	font-size: 1rem;
+	color: $primary;
+	line-height: 1.5rem;
+	margin-left: 48px;
+	text-underline-offset: 12px;
+}
+.featured {
+	text-transform: uppercase;
+	font-size: 0.5rem;
+	color: $grey;
+	letter-spacing: 2px;
+	margin-bottom: 39px;
+}
+.partners-logos {
+	display: flex;
+	justify-content: start;
+	align-items: center;
+}
+.cta {
+	margin-bottom: 119px;
+}
+.right-part {
+	position: relative;
+}
+.house-people {
+	position: absolute;
+	right: 33.5px;
+	top: 253px;
+	display: grid;
+	grid-template: auto auto / 170px 155px 102px;
+	row-gap: 55px;
+	&__1 {
+		margin-left: -4px;
+		grid-column: 1 / 4;
+		justify-self: center;
+	}
+	&__3 {
+		margin-top: 15px;
+	}
+	&__4 {
+		align-self: center;
+		margin-top: -14px;
+	}
+}

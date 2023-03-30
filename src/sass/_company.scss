@@ -1,0 +1,95 @@
+.company {
+	&-section {
+		min-height: 1014px;
+		padding: 0 60px;
+		background: $light;
+		&__left {
+			padding: 0 41px 0 0;
+		}
+		&__right {
+			display: none;
+		}
+	}
+	&-inner {
+		padding: 72px 61px 88px 61px;
+		min-height: 1014px;
+		background: $secondary;
+	}
+	&-title {
+		font-size: 2.5rem;
+		line-height: 3rem;
+		text-align: center;
+		margin-bottom: 67px;
+	}
+	&-sections {
+		margin-bottom: 68px;
+		display: flex;
+		justify-content: space-between;
+	}
+	&-text {
+		font-size: 1.4rem;
+		line-height: 2rem;
+		text-align: center;
+		margin-bottom: 11px;
+	}
+	&-reviewer {
+		display: flex;
+		justify-content: center;
+		margin-bottom: 46px;
+		img {
+			margin-right: 11px;
+		}
+		&_about {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+		}
+		&_name {
+			color: $grey;
+			font-size: 0.5rem;
+			line-height: 0.8rem;
+			letter-spacing: 2px;
+			text-transform: uppercase;
+			margin-bottom: 0;
+		}
+		&_work {
+			color: $grey;
+			font-size: 1rem;
+			line-height: 1.5rem;
+			margin-bottom: 0;
+		}
+	}
+	&__about {
+		margin: 44px 0 28px 0;
+		font-size: 1rem;
+		line-height: 1.5rem;
+		text-align: center;
+	}
+	&__button-container {
+		display: flex;
+		justify-content: center;
+	}
+	&-line {
+		border-top: 1px solid $primary;
+	}
+	&-info {
+		margin-top: 40px;
+		display: flex;
+		justify-content: space-around;
+		flex-wrap: wrap;
+		&__item {
+			text-align: center;
+		}
+		&__header {
+			font-size: 3.5rem;
+			line-height: 4rem;
+			color: $dark;
+		}
+		&__about {
+			font-size: 0.7rem;
+			line-height: 1rem;
+			text-transform: uppercase;
+			color: $dark;
+		}
+	}
+}

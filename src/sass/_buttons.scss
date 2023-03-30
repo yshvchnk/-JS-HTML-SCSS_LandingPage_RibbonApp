@@ -1,0 +1,30 @@
+.btn {
+	width: 158px;
+	height: 54px;
+	border-radius: 5px;
+	background: $primary;
+	color: $white;
+	transition: all 0.1s ease-in-out;
+	font-size: 18px;
+	&:hover {
+		background: $grey;
+		border-radius: 15px;
+	}
+	&_big {
+		width: 223px;
+	}
+	&_light {
+		background: $white;
+		color: $primary;
+		border: 1px solid $primary;
+	}
+	&_black {
+		background: $black;
+		width: 234px;
+		height: 64px;
+		&:hover {
+			background: $black;
+			border-radius: 15px;
+		}
+	}
+}
